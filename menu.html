@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Pash Cafe & Dine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="menu-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Watermark -->
+    <div class="watermark"></div>
+
+    <!-- Page Transition -->
+    <div class="page-transition"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-text">PASH</span>
+            </a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="nav-links">
+                <a href="index.html" class="nav-link">
+                    <span class="link-text">Home</span>
+                    <div class="link-button"></div>
+                </a>
+                <a href="menu.html" class="nav-link active">
+                    <span class="link-text">Menu</span>
+                    <div class="link-button"></div>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Menu Header -->
+    <header class="menu-header">
+        <div class="menu-header-content">
+            <h1>Our Menu</h1>
+            <p>Discover our culinary masterpieces</p>
+        </div>
+    </header>
+
+    <!-- Menu Categories -->
+    <section class="menu-categories-section">
+        <div class="menu-filters">
+            <button class="filter-btn active" data-filter="all">
+                <i class="fas fa-th-large"></i>
+                <span>All</span>
+            </button>
+            <button class="filter-btn" data-filter="starter">
+                <i class="fas fa-carrot"></i>
+                <span>Starters</span>
+            </button>
+            <button class="filter-btn" data-filter="main">
+                <i class="fas fa-utensils"></i>
+                <span>Main Course</span>
+            </button>
+            <button class="filter-btn" data-filter="dessert">
+                <i class="fas fa-coffee"></i>
+                <span>Desserts & Beverages</span>
+            </button>
+        </div>
+
+        <div class="menu-items-container">
+            <!-- Starters -->
+            <div class="menu-category">
+                <h2 class="category-title">Starters</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Paneer Tikka" loading="lazy"></div>
+                        <div class="item-header"><h3>Paneer Tikka</h3><span class="price">₹250</span></div>
+                        <p class="item-description">Classic tandoori paneer</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Paneer Malai" loading="lazy"></div>
+                        <div class="item-header"><h3>Paneer Malai</h3><span class="price">₹250</span></div>
+                        <p class="item-description">Creamy malai paneer</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Mushroom Tikka" loading="lazy"></div>
+                        <div class="item-header"><h3>Mushroom Tikka</h3><span class="price">₹250</span></div>
+                        <p class="item-description">Grilled mushroom tikka</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Harabhara Kebab" loading="lazy"></div>
+                        <div class="item-header"><h3>Harabhara Kebab</h3><span class="price">₹250</span></div>
+                        <p class="item-description">Green vegetable kebab</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Veg Manchurian" loading="lazy"></div>
+                        <div class="item-header"><h3>Veg Manchurian</h3><span class="price">₹220</span></div>
+                        <p class="item-description">Indo-Chinese manchurian</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Paneer Chilly" loading="lazy"></div>
+                        <div class="item-header"><h3>Paneer Chilly</h3><span class="price">₹240</span></div>
+                        <p class="item-description">Spicy chilli paneer</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Crispy Corn" loading="lazy"></div>
+                        <div class="item-header"><h3>Crispy Corn</h3><span class="price">₹180</span></div>
+                        <p class="item-description">Crispy fried corn kernels</p>
+                    </div>
+                    <div class="menu-item" data-category="starter">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Pash Special" loading="lazy"></div>
+                        <div class="item-header"><h3>Pash Special</h3><span class="price">₹300</span></div>
+                        <p class="item-description">Chef's special starter</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Course -->
+            <div class="menu-category">
+                <h2 class="category-title">Main Course</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Mix Veg" loading="lazy"></div>
+                        <div class="item-header"><h3>Mix Veg</h3><span class="price">₹220</span></div>
+                        <p class="item-description">Mixed vegetables in rich gravy</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Veg Kolhapuri" loading="lazy"></div>
+                        <div class="item-header"><h3>Veg Kolhapuri</h3><span class="price">₹240</span></div>
+                        <p class="item-description">Spicy Kolhapuri style vegetables</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Paneer Butter Masala" loading="lazy"></div>
+                        <div class="item-header"><h3>Paneer Butter Masala</h3><span class="price">₹280</span></div>
+                        <p class="item-description">Classic butter paneer curry</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Palak Paneer" loading="lazy"></div>
+                        <div class="item-header"><h3>Palak Paneer</h3><span class="price">₹260</span></div>
+                        <p class="item-description">Spinach with cottage cheese</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Malai Kofta" loading="lazy"></div>
+                        <div class="item-header"><h3>Malai Kofta</h3><span class="price">₹280</span></div>
+                        <p class="item-description">Creamy vegetable dumplings</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Kaju Paneer Masala" loading="lazy"></div>
+                        <div class="item-header"><h3>Kaju Paneer Masala</h3><span class="price">₹320</span></div>
+                        <p class="item-description">Cashew and paneer curry</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Dal Makhani" loading="lazy"></div>
+                        <div class="item-header"><h3>Dal Makhani</h3><span class="price">₹220</span></div>
+                        <p class="item-description">Creamy black lentils</p>
+                    </div>
+                    <div class="menu-item" data-category="main">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Pash Special" loading="lazy"></div>
+                        <div class="item-header"><h3>Pash Special</h3><span class="price">₹320</span></div>
+                        <p class="item-description">Chef's special curry</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Desserts & Beverages -->
+            <div class="menu-category">
+                <h2 class="category-title">Desserts & Beverages</h2>
+                <div class="menu-items">
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Brownie With Ice-Cream" loading="lazy"></div>
+                        <div class="item-header"><h3>Brownie With Ice-Cream</h3><span class="price">₹180</span></div>
+                        <p class="item-description">Warm brownie with vanilla ice cream</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Cheese Cake" loading="lazy"></div>
+                        <div class="item-header"><h3>Cheese Cake</h3><span class="price">₹200</span></div>
+                        <p class="item-description">Classic cheesecake</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Virgin Mojito" loading="lazy"></div>
+                        <div class="item-header"><h3>Virgin Mojito</h3><span class="price">₹160</span></div>
+                        <p class="item-description">Fresh mint and lime mocktail</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Ferrero Rocher" loading="lazy"></div>
+                        <div class="item-header"><h3>Ferrero Rocher</h3><span class="price">₹220</span></div>
+                        <p class="item-description">Ferrero Rocher shake</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Caffe Latte" loading="lazy"></div>
+                        <div class="item-header"><h3>Caffe Latte</h3><span class="price">₹160</span></div>
+                        <p class="item-description">Espresso with steamed milk</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Hot Chocolate" loading="lazy"></div>
+                        <div class="item-header"><h3>Hot Chocolate</h3><span class="price">₹180</span></div>
+                        <p class="item-description">Rich hot chocolate</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Iced Cappuccino" loading="lazy"></div>
+                        <div class="item-header"><h3>Iced Cappuccino</h3><span class="price">₹180</span></div>
+                        <p class="item-description">Chilled cappuccino</p>
+                    </div>
+                    <div class="menu-item" data-category="dessert">
+                        <div class="item-image"><img src="imgs/starters.jpg" alt="Vietnamese Cold Coffee" loading="lazy"></div>
+                        <div class="item-header"><h3>Vietnamese Cold Coffee</h3><span class="price">₹200</span></div>
+                        <p class="item-description">Traditional Vietnamese style coffee</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Pash Cafe & Dine</h3>
+                <p>Experience the art of fine dining</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Hours</h3>
+                <p>Monday - Friday: 11am - 11pm</p>
+                <p>Saturday - Sunday: 10am - 12am</p>
+            </div>
+            <div class="footer-section">
+                <h3>Location</h3>
+                <p>123 Gourmet Street</p>
+                <p>Culinary District, CA 90210</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Pash Cafe & Dine. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <script src="menu.js"></script>
+</body>
+</html> 
